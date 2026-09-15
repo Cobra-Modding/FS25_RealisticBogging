@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="111">
+    <author>Marcus (Cobra Modding)</author>
+    <version>1.0.0.0</version>   
+	<title><de>Realistisches Festfahren</de><en>Realistic Bogging</en></title>
+    
+	<description>
+        <de>Radlast, Reifenbreite, Bodenfeuchte und Radschlupf bestimmen das Festfahren auf Feldern und Wiesen. ASR-kompatibles Bodenmodell: hohe Zugkraft kann auch bei geregeltem Radschlupf zum Festfahren fuehren, ohne in ASR, Motor oder Bremsen einzugreifen.</de>
+        <en>Wheel load, tire width, ground wetness and wheel slip determine bogging on fields and grassland. ASR-compatible soil model: high tractive effort can cause bogging even when wheel slip is controlled, without overriding ASR, engine or brakes.</en>
+    </description>
+    
+	<iconFilename>icon_RealisticBogging.dds</iconFilename>
+    
+	<multiplayer supported="true"/>
+    
+	<extraSourceFiles>
+        <sourceFile filename="scripts/BoggingModel.lua"/>
+        <sourceFile filename="scripts/RealisticBogging.lua"/>
+        <sourceFile filename="scripts/BoggingHUD.lua"/>
+    </extraSourceFiles>
+</modDesc>
